@@ -1,3 +1,3 @@
 # UILocalizedIndexedCollation
 
-字母检索排序
+按首字母检索排序
