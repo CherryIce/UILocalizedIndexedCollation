@@ -15,6 +15,8 @@
 		8FE45E2F1FCBE994008B6F89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE45E2E1FCBE994008B6F89 /* main.m */; };
 		8FE45E391FCBE994008B6F89 /* UILocalizedIndexedCollationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE45E381FCBE994008B6F89 /* UILocalizedIndexedCollationTests.m */; };
 		8FE45E441FCBE994008B6F89 /* UILocalizedIndexedCollationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE45E431FCBE994008B6F89 /* UILocalizedIndexedCollationUITests.m */; };
+		8FE45E531FCBE9CB008B6F89 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE45E521FCBE9CB008B6F89 /* TableViewController.m */; };
+		8FE45E571FCBEAF6008B6F89 /* ShowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE45E561FCBEAF6008B6F89 /* ShowModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		8FE45E3F1FCBE994008B6F89 /* UILocalizedIndexedCollationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UILocalizedIndexedCollationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE45E431FCBE994008B6F89 /* UILocalizedIndexedCollationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILocalizedIndexedCollationUITests.m; sourceTree = "<group>"; };
 		8FE45E451FCBE994008B6F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE45E511FCBE9CB008B6F89 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		8FE45E521FCBE9CB008B6F89 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		8FE45E551FCBEAF6008B6F89 /* ShowModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowModel.h; sourceTree = "<group>"; };
+		8FE45E561FCBEAF6008B6F89 /* ShowModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		8FE45E1E1FCBE994008B6F89 /* UILocalizedIndexedCollation */ = {
 			isa = PBXGroup;
 			children = (
+				8FE45E541FCBE9CF008B6F89 /* Classes */,
 				8FE45E1F1FCBE994008B6F89 /* AppDelegate.h */,
 				8FE45E201FCBE994008B6F89 /* AppDelegate.m */,
 				8FE45E221FCBE994008B6F89 /* ViewController.h */,
@@ -130,6 +137,17 @@
 				8FE45E451FCBE994008B6F89 /* Info.plist */,
 			);
 			path = UILocalizedIndexedCollationUITests;
+			sourceTree = "<group>";
+		};
+		8FE45E541FCBE9CF008B6F89 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8FE45E511FCBE9CB008B6F89 /* TableViewController.h */,
+				8FE45E521FCBE9CB008B6F89 /* TableViewController.m */,
+				8FE45E551FCBEAF6008B6F89 /* ShowModel.h */,
+				8FE45E561FCBEAF6008B6F89 /* ShowModel.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +286,8 @@
 				8FE45E241FCBE994008B6F89 /* ViewController.m in Sources */,
 				8FE45E2F1FCBE994008B6F89 /* main.m in Sources */,
 				8FE45E211FCBE994008B6F89 /* AppDelegate.m in Sources */,
+				8FE45E531FCBE9CB008B6F89 /* TableViewController.m in Sources */,
+				8FE45E571FCBEAF6008B6F89 /* ShowModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "TableViewController.h"
+
 @interface ViewController ()
 
 @end
@@ -19,6 +21,11 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)btnClick:(UIButton *)sender
+{
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:[[TableViewController alloc] init]];
+    [self presentViewController:nav animated:true completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
